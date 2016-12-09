@@ -1,1 +1,19 @@
-{"guid":"registry_suite","repository":{"type":"git","branch":"master","url":"https://github.com/dirigiblelabs/registry_suite.git"}}
+{
+    "guid": "registry_suite",
+    "repository": {
+        "type": "git",
+        "branch": "master",
+        "url": "https://github.com/dirigiblelabs/registry_suite.git"
+    },
+    "dependencies": [{
+        "guid":"registry",
+        "type": "git",
+        "url": "https://github.com/dirigiblelabs/registry.git",
+        "branch":"master"
+    }, {
+        "guid":"registry_ext",
+        "type": "git",
+        "url": "https://github.com/dirigiblelabs/registry_ext.git",
+        "branch":"master"
+    }]
+}
